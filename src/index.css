@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  html, body{
+    @apply h-screen
+  }
+  #root{
+    @apply h-screen flex justify-center items-center text-center bg-slate-900
+  }
+}
